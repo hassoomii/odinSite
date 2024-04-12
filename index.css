@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+}
+.div1 {
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+}
+.text {
+    color: white;
+    font-family: Arial;
+}
+.text, .div1 {
+    text-align: center;
+    justify-content: center;
+}
+.image1 {
+    height: 60px;
+    width: 60px;
+}
