@@ -1,16 +1,25 @@
 const rockButton = document.getElementById('rock');
 const paperButton = document.getElementById('paper');
 const scissorButton = document.getElementById('scissor');
+const playerScore = document.getElementById('playerScore');
+const compScore = document.getElementById('compScore');
+const playerGamesWon = document.getElementById('playerGamesWon');
+const compGamesWon = document.getElementById('compGamesWon');
+let playerChoice = 0;
+let compChoice = 0;
 
-// Now you can use these references to manipulate the buttons or add event listeners, for example:
+function inputCheck(){
+    compChoice = Math.floor((Math.random() * 3) + 1)
+    
+}
 rockButton.addEventListener('click', () => {
-    console.log('rock')
+    inputCheck();
 });
 
 paperButton.addEventListener('click', () => {
-    console.log('paper')
+    playerScore.textContent ++ ;
 });
 
 scissorButton.addEventListener('click', () => {
-    console.log('scissor')
+    playerScore.textContent ++ ;
 });

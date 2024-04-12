@@ -1,7 +1,7 @@
 body {
     background-color: black;
 }
-.div1 {
+.div1, .div3 {
     background-color: blue;
     height: 100%;
     width: 100%;
@@ -22,4 +22,11 @@ body {
 .button1 {
     background-color: transparent;
     border: none;
+}
+.div3 {
+    display: flex;
+    place-content: center;
+}
+.div4, .div5 {
+    margin: 2%;
 }
